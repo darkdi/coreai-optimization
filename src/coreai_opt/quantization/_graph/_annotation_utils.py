@@ -921,7 +921,7 @@ def _get_spec_from_spec_dict(
     Args:
         spec_dict: The spec dictionary to look up (module_input_spec, module_state_spec,
             or module_output_spec)
-        index: The index of the input/output to look up
+        identifier: Index or name of the input/output/state to look up, or a list of them
 
     Returns:
         A tuple of (found, spec) where:
